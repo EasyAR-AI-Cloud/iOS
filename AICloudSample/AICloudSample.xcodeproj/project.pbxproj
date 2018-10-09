@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C235D7E521099B3700C5A867 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C235D7E421099B3700C5A867 /* ViewController.xib */; };
+		C235D7EC2118327900C5A867 /* AICloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235D7EB2118327800C5A867 /* AICloud.framework */; };
+		C29DCA2C21056B2500D1C456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29DCA2B21056B2500D1C456 /* AppDelegate.m */; };
+		C29DCA2F21056B2600D1C456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29DCA2E21056B2600D1C456 /* ViewController.m */; };
+		C29DCA3421056B2700D1C456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29DCA3321056B2700D1C456 /* Assets.xcassets */; };
+		C29DCA3A21056B2700D1C456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29DCA3921056B2700D1C456 /* main.m */; };
+		C29DCA532105D96F00D1C456 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29DCA512105D96F00D1C456 /* CategoryViewController.m */; };
+		C29DCA542105D96F00D1C456 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29DCA522105D96F00D1C456 /* CategoryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C235D7E421099B3700C5A867 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C235D7E621115E8500C5A867 /* AICloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AICloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C235D7EB2118327800C5A867 /* AICloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AICloud.framework; sourceTree = "<group>"; };
+		C29DCA2721056B2500D1C456 /* AICloudSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AICloudSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29DCA2A21056B2500D1C456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C29DCA2B21056B2500D1C456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C29DCA2D21056B2500D1C456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C29DCA2E21056B2600D1C456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C29DCA3321056B2700D1C456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C29DCA3821056B2700D1C456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29DCA3921056B2700D1C456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C29DCA502105D96F00D1C456 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		C29DCA512105D96F00D1C456 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		C29DCA522105D96F00D1C456 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29DCA2421056B2500D1C456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235D7EC2118327900C5A867 /* AICloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29DCA1E21056B2500D1C456 = {
+			isa = PBXGroup;
+			children = (
+				C29DCA2921056B2500D1C456 /* AICloudSample */,
+				C29DCA2821056B2500D1C456 /* Products */,
+				C29DCA4621056B7A00D1C456 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C29DCA2821056B2500D1C456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29DCA2721056B2500D1C456 /* AICloudSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29DCA2921056B2500D1C456 /* AICloudSample */ = {
+			isa = PBXGroup;
+			children = (
+				C29DCA2A21056B2500D1C456 /* AppDelegate.h */,
+				C29DCA2B21056B2500D1C456 /* AppDelegate.m */,
+				C29DCA2D21056B2500D1C456 /* ViewController.h */,
+				C29DCA2E21056B2600D1C456 /* ViewController.m */,
+				C29DCA3321056B2700D1C456 /* Assets.xcassets */,
+				C29DCA3821056B2700D1C456 /* Info.plist */,
+				C29DCA3921056B2700D1C456 /* main.m */,
+				C235D7EB2118327800C5A867 /* AICloud.framework */,
+				C29DCA502105D96F00D1C456 /* CategoryViewController.h */,
+				C29DCA512105D96F00D1C456 /* CategoryViewController.m */,
+				C29DCA522105D96F00D1C456 /* CategoryViewController.xib */,
+				C235D7E421099B3700C5A867 /* ViewController.xib */,
+			);
+			path = AICloudSample;
+			sourceTree = "<group>";
+		};
+		C29DCA4621056B7A00D1C456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C235D7E621115E8500C5A867 /* AICloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29DCA2621056B2500D1C456 /* AICloudSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29DCA3D21056B2700D1C456 /* Build configuration list for PBXNativeTarget "AICloudSample" */;
+			buildPhases = (
+				C29DCA2321056B2500D1C456 /* Sources */,
+				C29DCA2421056B2500D1C456 /* Frameworks */,
+				C29DCA2521056B2500D1C456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AICloudSample;
+			productName = AIcloudSample;
+			productReference = C29DCA2721056B2500D1C456 /* AICloudSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29DCA1F21056B2500D1C456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = myapp;
+				TargetAttributes = {
+					C29DCA2621056B2500D1C456 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C29DCA2221056B2500D1C456 /* Build configuration list for PBXProject "AICloudSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C29DCA1E21056B2500D1C456;
+			productRefGroup = C29DCA2821056B2500D1C456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29DCA2621056B2500D1C456 /* AICloudSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29DCA2521056B2500D1C456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235D7E521099B3700C5A867 /* ViewController.xib in Resources */,
+				C29DCA542105D96F00D1C456 /* CategoryViewController.xib in Resources */,
+				C29DCA3421056B2700D1C456 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29DCA2321056B2500D1C456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29DCA532105D96F00D1C456 /* CategoryViewController.m in Sources */,
+				C29DCA2F21056B2600D1C456 /* ViewController.m in Sources */,
+				C29DCA3A21056B2700D1C456 /* main.m in Sources */,
+				C29DCA2C21056B2500D1C456 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C29DCA3B21056B2700D1C456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C29DCA3C21056B2700D1C456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29DCA3E21056B2700D1C456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52339HD2RU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AICloudSample",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liugang/Library/Developer/Xcode/DerivedData/DL-deberswlyfgmyybrkobqrawqpvvu/Build/Products/Debug-iphoneos/include/DLib/DLib.h",
+				);
+				INFOPLIST_FILE = AICloudSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.AICloudSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		C29DCA3F21056B2700D1C456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52339HD2RU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AICloudSample",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liugang/Library/Developer/Xcode/DerivedData/DL-deberswlyfgmyybrkobqrawqpvvu/Build/Products/Debug-iphoneos/include/DLib/DLib.h",
+				);
+				INFOPLIST_FILE = AICloudSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.AICloudSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29DCA2221056B2500D1C456 /* Build configuration list for PBXProject "AICloudSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29DCA3B21056B2700D1C456 /* Debug */,
+				C29DCA3C21056B2700D1C456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29DCA3D21056B2700D1C456 /* Build configuration list for PBXNativeTarget "AICloudSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29DCA3E21056B2700D1C456 /* Debug */,
+				C29DCA3F21056B2700D1C456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C29DCA1F21056B2500D1C456 /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="labelHeightConstriant" destination="Uuv-Z8-1XC" id="wui-tX-4Wr"/>
+                <outlet property="preView" destination="avG-zZ-mmJ" id="8L4-S0-OvL"/>
+                <outlet property="tipLabel" destination="5vh-pE-Jba" id="M2W-Xc-Oq8"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Veb-QA-xdo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avG-zZ-mmJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recognizing..." lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vh-pE-Jba">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <color key="backgroundColor" red="0.36551392042786274" green="0.78620717005076146" blue="0.35123419448496213" alpha="0.69568707191780821" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="Uuv-Z8-1XC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5vh-pE-Jba" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HQn-Vw-ZaR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="avG-zZ-mmJ" secondAttribute="trailing" id="JM3-SV-vNJ"/>
+                <constraint firstItem="avG-zZ-mmJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VPP-g5-BBS"/>
+                <constraint firstItem="avG-zZ-mmJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Y5F-7f-Z47"/>
+                <constraint firstItem="avG-zZ-mmJ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ass-DD-w4N"/>
+                <constraint firstAttribute="trailing" secondItem="5vh-pE-Jba" secondAttribute="trailing" id="hre-hz-wvl"/>
+                <constraint firstItem="5vh-pE-Jba" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="izL-ba-zce"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
